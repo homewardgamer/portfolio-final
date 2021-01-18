@@ -1,0 +1,274 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display:flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border: 4px solid #13F7D2;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #13F7D2;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+
+
+
+body
+{
+   z-index: 0;
+    background-color: #1D1E20;
+    font-family: 'Montserrat', sans-serif;
+}
+#About
+{
+    color: #13F7D2;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 61px;
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+#Contacts
+{
+    color: #13F7D2;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 61px;
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+}
+#head
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+color: #FFFFFF;
+}
+#profile
+{
+    transition: transform 3s;
+}
+#para
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+h1
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+letter-spacing: 0.2em;
+transition: letter-spacing 3s;
+
+color: #13F7D2;
+}
+#ellipse
+{
+    position: absolute;
+    top:600px;
+    left: 2%;
+    transition: transform 5s;
+}
+.col-lg-6
+{
+    padding: 5em;
+}
+#cross1
+{
+    position: absolute;
+    top: 200px;
+    left:550px;
+    transition: transform 5s;
+}
+#cross2
+{
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    transition: transform 5s;
+}
+.fa
+{
+
+color: #13F7D2;
+border-radius: 50%;
+border: #13F7D2;
+border-style: solid;
+border-width: 3px;
+line-height: 60px !important;
+  text-align: center;
+  vertical-align: middle;
+transition: transform 3s;
+height: 60px;
+width: 60px;
+font-size: xx-large !important;
+}
+.col-lg-12
+{
+    padding-top: 100px;
+    text-align: center;
+}
+#menu
+{
+    border-width: 0px;
+
+}
+#credits{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #13F7D2;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 0px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1D1E20;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  #About:hover
+  {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #13F7D2;
+    transform: rotate(-10deg);
+
+
+  }
+  #Contacts:hover
+  {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #13F7D2;
+    transform: rotate(10deg);
+  }
+  #cross1:hover
+  {
+    transform:rotate(1440deg);
+  }
+  #cross2:hover
+  {
+    transform: rotate(-1440deg);
+  }
+  h1:hover
+  {
+    letter-spacing: 0.32em;
+  }
+  #ellipse:hover
+  {
+    transform: scale(1.5,1.5);
+  }
+  #profile:hover
+  {
+    transform: scale(0.95,0.95);
+  }
+  .fa:hover
+  {
+    transform: scale(1.25,1.25);
+  }
+  
+  
