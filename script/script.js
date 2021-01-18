@@ -2,7 +2,7 @@ var x=0;
 var y=0;
 
 $(window).on("load",function(){
-    $(".loader-wrapper").fadeOut(5000);
+    $(".loader-wrapper").fadeOut(6000);
   });
 
 function changeTheme() {
