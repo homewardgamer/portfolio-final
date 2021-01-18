@@ -94,7 +94,7 @@ color: #FFFFFF;
 #profile
 {
     transition: transform 3s;
-  z-index=-100;
+  z-index:-100;
 }
 #para
 {
@@ -247,6 +247,7 @@ color: #FFFFFF;
 
 
   }
+
   #Contacts:hover
   {
     padding-bottom: 5px;
@@ -277,5 +278,11 @@ color: #FFFFFF;
   {
     transform: scale(1.25,1.25);
   }
+#geek1
+{
+  
+  z-index:-100;
+}
+
   
   
