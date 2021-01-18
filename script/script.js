@@ -1,4 +1,5 @@
 var x=0;
+var y=0;
 
 $(window).on("load",function(){
     $(".loader-wrapper").fadeOut(5000);
@@ -34,5 +35,21 @@ function changeTheme() {
         x=x-1;
     }
 
+}
+function changeIcon() {
+    if (y==0) {
+
+        document.getElementById("menu").className="fa fa-times";
+        y=y+1;
+
+        
+    } 
     
-} 
+    else {
+        document.getElementById("menu").className="fa fa-bars";
+        y=y-1;
+
+        
+    }
+    
+}

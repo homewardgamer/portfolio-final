@@ -64,8 +64,8 @@ body
     font-size: 25px;
     line-height: 61px;
     position: absolute;
-    left: 1000px;
-    top: 50px;
+    left: 70vw;
+    top: 0vh;
 }
 #Contacts
 {
@@ -76,8 +76,8 @@ body
     font-size: 25px;
     line-height: 61px;
     position: absolute;
-    left: 1200px;
-    top: 50px;
+    left: 85vw;
+    top: 0vh;
 }
 #head
 {
