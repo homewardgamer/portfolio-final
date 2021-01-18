@@ -67,7 +67,6 @@ body
     position: absolute;
     left: 70vw;
     top: 0vh;
-    z-index:-100;
 }
 #Contacts
 {
@@ -80,7 +79,6 @@ body
     position: absolute;
     left: 85vw;
     top: 0vh;
-  z-index: -100;
 }
 #head
 {
@@ -135,7 +133,6 @@ color: #13F7D2;
     top: 200px;
     left:550px;
     transition: transform 5s;
-  z-index:-100;
 }
 #cross2
 {
@@ -143,7 +140,6 @@ color: #13F7D2;
     top: 800px;
     left: 300px;
     transition: transform 5s;
-  z-index:-100;
 }
 .fa
 {
@@ -211,7 +207,6 @@ color: #FFFFFF;
     background-color: #13F7D2;
     -webkit-transition: .4s;
     transition: .4s;
-    z-index:-100;
   }
   
   .slider:before {
@@ -224,7 +219,6 @@ color: #FFFFFF;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-    z-index:-100;
   }
   
   input:checked + .slider {
@@ -248,7 +242,6 @@ color: #FFFFFF;
 
 
   }
-
   #Contacts:hover
   {
     padding-bottom: 5px;
@@ -284,6 +277,3 @@ color: #FFFFFF;
   
   z-index:-100;
 }
-
-  
-  
