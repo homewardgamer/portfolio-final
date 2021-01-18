@@ -16,6 +16,7 @@
   background-color: black;
   justify-content: center;
   align-items: center;
+  z-index: 10000;
 }
 .loader {
   display: inline-block;
@@ -94,7 +95,6 @@ color: #FFFFFF;
 #profile
 {
     transition: transform 3s;
-  z-index:-100;
 }
 #para
 {
@@ -124,7 +124,6 @@ color: #13F7D2;
     top:600px;
     left: 2%;
     transition: transform 5s;
-  z-index:0;
 }
 .col-lg-6
 {
@@ -212,6 +211,7 @@ color: #FFFFFF;
     background-color: #13F7D2;
     -webkit-transition: .4s;
     transition: .4s;
+    z-index:-100;
   }
   
   .slider:before {
@@ -224,6 +224,7 @@ color: #FFFFFF;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
+    z-index:-100;
   }
   
   input:checked + .slider {
