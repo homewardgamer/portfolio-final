@@ -66,6 +66,7 @@ body
     position: absolute;
     left: 70vw;
     top: 0vh;
+    z-index:-100;
 }
 #Contacts
 {
@@ -78,6 +79,7 @@ body
     position: absolute;
     left: 85vw;
     top: 0vh;
+  z-index: -100;
 }
 #head
 {
@@ -92,6 +94,7 @@ color: #FFFFFF;
 #profile
 {
     transition: transform 3s;
+  z-index=-100;
 }
 #para
 {
@@ -121,6 +124,7 @@ color: #13F7D2;
     top:600px;
     left: 2%;
     transition: transform 5s;
+  z-index:-10;
 }
 .col-lg-6
 {
@@ -132,6 +136,7 @@ color: #13F7D2;
     top: 200px;
     left:550px;
     transition: transform 5s;
+  z-index:-100;
 }
 #cross2
 {
@@ -139,6 +144,7 @@ color: #13F7D2;
     top: 800px;
     left: 300px;
     transition: transform 5s;
+  z-index:-100;
 }
 .fa
 {
@@ -164,6 +170,7 @@ font-size: xx-large !important;
 #menu
 {
     border-width: 0px;
+  z-index:-100;
 
 }
 #credits{
