@@ -272,3 +272,21 @@ color: #FFFFFF;
   {
     transform: scale(1.25,1.25);
   }
+@media(min-width: 0px)
+{
+  #text{
+    text-align: center;
+  }
+}
+@media(min-width: 992px)
+{
+  #text{
+    text-align: left;
+  }
+}
+@media(min-width: 1200px)
+{
+  #text{
+    text-align: left;
+  }
+}
