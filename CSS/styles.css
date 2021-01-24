@@ -1,3 +1,11 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
 .content {
   display: flex;
   justify-content: center;
@@ -9,7 +17,7 @@
 .loader-wrapper {
   width: 100%;
   height: 100%;
-  position: fixed !important;
+  position: fixed;
   top: 0;
   left: 0;
   display:flex;
@@ -118,9 +126,7 @@ color: #13F7D2;
 }
 #ellipse
 {
-    position: absolute;
-    top:600px;
-    left: 2%;
+
     transition: transform 5s;
 }
 .col-lg-6
@@ -129,16 +135,16 @@ color: #13F7D2;
 }
 #cross1
 {
-    position: absolute;
-    top: 200px;
-    left:550px;
+    position: relative;
+    top:-50%;
+    left:10%;
     transition: transform 5s;
 }
 #cross2
 {
-    position: absolute;
-    top: 800px;
-    left: 300px;
+    /* position: relative;
+    bottom: -60%;
+    left: -50%; */
     transition: transform 5s;
 }
 .fa
@@ -272,21 +278,90 @@ color: #FFFFFF;
   {
     transform: scale(1.25,1.25);
   }
+#geek1
+{
+  
+  z-index:-100;
+}
 @media(min-width: 0px)
 {
   #text{
     text-align: center;
   }
+  #ellipse
+  {
+    position: absolute;
+    height:100px;
+    width:100px;
+    top: 65%;
+    left: 10%;
+  }
+  #profile
+  {
+
+    margin: auto;
+    height: 300px;
+    width: 300px;
+
+
+  }
+  #cross2
+  {
+    /* position: absolute;
+    top:90%;
+    left: 50%; */
+    position: absolute;
+left: 42.51%;
+right: 46.25%;
+top: 79.35%;
+bottom: 56.83%;
+  }
+  #cross1
+  {
+    position: absolute;
+left: 73.91%;
+right: 14.85%;
+top: 31.21%;
+bottom: 84.97%;
+  }
 }
-@media(min-width: 992px)
+@media(min-width: 1000px)
 {
   #text{
     text-align: left;
   }
-}
-@media(min-width: 1200px)
-{
-  #text{
-    text-align: left;
+  #cross2
+  {
+    position: absolute;
+left: 27.85%;
+right: 69.37%;
+top: 100%;
+bottom: 19.42%;
   }
+  #cross1
+  {
+    position: absolute;
+left: 37.64%;
+right: 59.13%;
+top: 27.02%;
+bottom: 68.44%;
+  }
+  /* #photoscont
+  {
+    margin-left: 0px;
+  } */
+  #profile
+  {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+  }
+  #ellipse
+  {
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:75%;
+    left:0%;
+  } 
 }
